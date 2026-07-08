@@ -1,0 +1,25 @@
+name: "CD: Release New Version"
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  release-please:
+    name: "Release new version"
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/setup-node@v6
+        with:
+            node-version: lts/*
+      - uses: googleapis/release-please-action@v4
+        with:
+          token: ${{ secrets.RELEASE_ACTION_TOKEN }}
+          release-type: node
