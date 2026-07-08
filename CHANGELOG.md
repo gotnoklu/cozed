@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/gotnoklu/cozed/compare/v0.1.0...v0.1.1) (2026-07-08)
+
+
+### Bug Fixes
+
+* **binary:** update binary name ([cfba568](https://github.com/gotnoklu/cozed/commit/cfba568dfc864eef80fa9839df423038ec3d80f2))
+
 ## 0.1.0 (2026-07-08)
 
 
