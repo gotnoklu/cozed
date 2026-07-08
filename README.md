@@ -36,13 +36,13 @@ Options
 With `npm`:
 
 ```sh
-npm install -g cozed
+npm install -g @gotnoklu/cozed
 ```
 
 With `npx` (for one-off tasks without installation):
 
 ```sh
-npx cozed
+npx @gotnoklu/cozed
 ```
 
 ## Examples
