@@ -1,0 +1,40 @@
+{
+  "name": "@gotnoklu/cozed",
+  "version": "0.1.0",
+  "description": "Convert VSCode themes to Zed themes",
+  "main": "./dist/index.js",
+  "bin": {
+    "@gotnoklu/cozed": "./dist/index.js"
+  },
+  "scripts": {
+    "watch": "rslib -w build",
+    "build": "rslib build",
+    "lint": "biome lint",
+    "lint:fix": "biome lint --fix",
+    "format": "biome format --write ./src/**",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zed",
+    "vscode",
+    "theme",
+    "extension",
+    "converter"
+  ],
+  "author": "Enoch Klu <klueenoch@gmail.com>",
+  "license": "MIT",
+  "packageManager": "pnpm@11.5.0",
+  "type": "module",
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.2",
+    "@rslib/core": "^0.23.1",
+    "@types/command-line-args": "^5.2.3",
+    "@types/command-line-usage": "^5.0.4",
+    "@types/node": "^26.1.0",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "command-line-args": "^6.0.2",
+    "command-line-usage": "^7.0.4"
+  }
+}
