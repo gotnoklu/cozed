@@ -1,6 +1,6 @@
 {
   "name": "@gotnoklu/cozed",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Convert VSCode themes to Zed themes",
   "main": "./dist/index.js",
   "bin": {
